@@ -1,0 +1,35 @@
+.header img{
+  width: 35px;
+  height: 35px;
+}
+
+.header button{
+  border: none;
+  background-color: var(--pink-2);
+  font-size: 16px;
+  color: var(--pink-6);
+  cursor: pointer;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--pink-2);
+  padding: 15px 50px;
+}
+
+.header nav{
+  display: flex;
+  gap: 50px;
+}
+
+.header .logo-container{
+  background-color: var(--pink-2);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

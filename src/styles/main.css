@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --text-dark: #77444e;
+  --pink-1: #B66878;
+  --pink-2: #C98895;
+  --pink-3: #D49BA7;
+  --pink-4: #DAABB5;
+  --pink-5: #EFC3CA;
+  --pink-6: #FBD9DE;
+}
