@@ -5,9 +5,9 @@
 
 .header button{
   border: none;
-  background-color: var(--pink-2);
+  background-color: var(--pink-4);
   font-size: 16px;
-  color: var(--pink-6);
+  color: white;
   cursor: pointer;
 }
 
@@ -15,8 +15,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--pink-2);
-  padding: 15px 50px;
+  background-color: var(--pink-4);
+  padding: 10px 50px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header nav{
@@ -25,7 +31,7 @@
 }
 
 .header .logo-container{
-  background-color: var(--pink-2);
+  background-color: var(--pink-4);
   height: 60px;
   width: 60px;
   border-radius: 30px;

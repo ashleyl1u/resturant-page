@@ -2,17 +2,17 @@ export default createHeader;
 import '../styles/header.css';
 
 function createHeader(){
-  const header = document.createElement('header');
-  header.classList.add('header');
+  const headerContent = document.createElement('header');
+  headerContent.classList.add('header');
 
   const imgDiv = document.createElement('div');
   const logo = document.createElement('img');
-  logo.src = '../src/images/logo.png';
+  logo.src = '../src/images/ice-cream.png';
   imgDiv.appendChild(logo);
 
   imgDiv.classList.add('logo-container');
 
-  header.appendChild(imgDiv);
+  headerContent.appendChild(imgDiv);
 
 
   const nav = document.createElement('nav');
@@ -28,8 +28,8 @@ function createHeader(){
   nav.appendChild(menuBtn);
   nav.appendChild(contactBtn);
 
-  header.appendChild(nav);
+  headerContent.appendChild(nav);
 
-  document.body.appendChild(header); 
+  document.getElementById('header').appendChild(headerContent); 
  
 }
