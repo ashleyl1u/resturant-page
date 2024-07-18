@@ -24,6 +24,10 @@ function createHeader(){
   menuBtn.textContent = 'MENU';
   contactBtn.textContent = 'CONTACT';
 
+  homeBtn.setAttribute('id', 'home-btn');
+  menuBtn.setAttribute('id', 'menu-btn');
+  contactBtn.setAttribute('id', 'contact-btn');
+
   nav.appendChild(homeBtn);
   nav.appendChild(menuBtn);
   nav.appendChild(contactBtn);
@@ -33,3 +37,7 @@ function createHeader(){
   document.getElementById('header').appendChild(headerContent); 
  
 }
+
+
+
+
