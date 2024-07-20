@@ -17,3 +17,11 @@
   --pink-5: #EFC3CA;
   --pink-6: #FBD9DE;
 }
+
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
