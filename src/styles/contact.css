@@ -1,0 +1,74 @@
+.contact-container {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.contact-container .head{
+  padding: 80px 0px;
+  background-color: var(--pink-4);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container h1{
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+.contact-container h2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 500px;
+  gap: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+}
+
+
+.input-name , .input-email, .input-message{
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  outline: grey solid 1px; 
+  border-radius: 10px;
+  
+}
+
+
+.input-name:focus , .input-email:focus, .input-message:focus{
+
+  outline: var(--pink-4) solid 2px; 
+
+  
+}
+
+.input-message{
+  resize: none;
+  
+}
+
+.form-container button{
+  align-self: center;
+  padding: 10px 15px;
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--pink-4);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
