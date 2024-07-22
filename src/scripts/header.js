@@ -7,7 +7,7 @@ function createHeader(){
 
   const imgDiv = document.createElement('div');
   const logo = document.createElement('img');
-  logo.src = '../src/images/ice-cream.png';
+  logo.src = '../../dist/images/ice-cream.png';
   imgDiv.appendChild(logo);
 
   imgDiv.classList.add('logo-container');

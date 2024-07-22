@@ -9,7 +9,7 @@ function createHome(){
   imgContainer.classList.add('img-container');
 
   const backgroundImage = document.createElement('img');
-  backgroundImage.src = '../src/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg';
+  backgroundImage.src = '../../dist/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg';
 
   imgContainer.appendChild(backgroundImage);
 
