@@ -10,8 +10,8 @@ import createContact from './scripts/contact';
 //renderHomePage();
 
 createHeader();
-//createHome();
-createContact();
+createHome();
+
 
 
 document.getElementById('home-btn').addEventListener('click', () => {
