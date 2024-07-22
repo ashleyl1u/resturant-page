@@ -216,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/header.css */ \"./src/styles/header.css\");\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHeader);\n\n\nfunction createHeader(){\n  const headerContent = document.createElement('header');\n  headerContent.classList.add('header');\n\n  const imgDiv = document.createElement('div');\n  const logo = document.createElement('img');\n  logo.src = '../../dist/images/ice-cream.png';\n  imgDiv.appendChild(logo);\n\n  imgDiv.classList.add('logo-container');\n\n  headerContent.appendChild(imgDiv);\n\n\n  const nav = document.createElement('nav');\n  const homeBtn = document.createElement('button');\n  const menuBtn = document.createElement('button');\n  const contactBtn = document.createElement('button');\n\n  homeBtn.textContent = 'HOME';\n  menuBtn.textContent = 'MENU';\n  contactBtn.textContent = 'CONTACT';\n\n  homeBtn.setAttribute('id', 'home-btn');\n  menuBtn.setAttribute('id', 'menu-btn');\n  contactBtn.setAttribute('id', 'contact-btn');\n\n  nav.appendChild(homeBtn);\n  nav.appendChild(menuBtn);\n  nav.appendChild(contactBtn);\n\n  headerContent.appendChild(nav);\n\n  document.getElementById('header').appendChild(headerContent); \n \n}\n\n\n\n\n\n\n//# sourceURL=webpack://resturant-page/./src/scripts/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_header_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/header.css */ \"./src/styles/header.css\");\n/* harmony import */ var _images_ice_cream_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/ice-cream.png */ \"./src/images/ice-cream.png\");\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHeader);\n\n\n\nfunction createHeader(){\n  const headerContent = document.createElement('header');\n  headerContent.classList.add('header');\n\n  const imgDiv = document.createElement('div');\n  const logo = document.createElement('img');\n  logo.src = _images_ice_cream_png__WEBPACK_IMPORTED_MODULE_1__;\n  imgDiv.appendChild(logo);\n\n  imgDiv.classList.add('logo-container');\n\n  headerContent.appendChild(imgDiv);\n\n\n  const nav = document.createElement('nav');\n  const homeBtn = document.createElement('button');\n  const menuBtn = document.createElement('button');\n  const contactBtn = document.createElement('button');\n\n  homeBtn.textContent = 'HOME';\n  menuBtn.textContent = 'MENU';\n  contactBtn.textContent = 'CONTACT';\n\n  homeBtn.setAttribute('id', 'home-btn');\n  menuBtn.setAttribute('id', 'menu-btn');\n  contactBtn.setAttribute('id', 'contact-btn');\n\n  nav.appendChild(homeBtn);\n  nav.appendChild(menuBtn);\n  nav.appendChild(contactBtn);\n\n  headerContent.appendChild(nav);\n\n  document.getElementById('header').appendChild(headerContent); \n \n}\n\n\n\n\n\n\n//# sourceURL=webpack://resturant-page/./src/scripts/header.js?");
 
 /***/ }),
 
@@ -226,7 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_home_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/home.css */ \"./src/styles/home.css\");\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHome);\n\n\nfunction createHome(){\n  const home = document.createElement('div');\n  home.classList.add('home');\n\n  const imgContainer = document.createElement('div');\n  imgContainer.classList.add('img-container');\n\n  const backgroundImage = document.createElement('img');\n  backgroundImage.src = '../../dist/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg';\n\n  imgContainer.appendChild(backgroundImage);\n\n\n  const colorOverlay = document.createElement('div');\n  colorOverlay.classList.add('color-overlay');\n\n  imgContainer.appendChild(colorOverlay);\n\n\n  const h2 = document.createElement('h2');\n  const h1 = document.createElement('h1');\n  const p = document.createElement('p');\n  const btn = document.createElement('button');\n  const textContainer = document.createElement('div');\n\n  textContainer.classList.add('text-container');\n\n  h2.textContent = 'welcome to';\n  h1.textContent = `SCOOP'S`;\n  p.textContent = 'ice cream made fresh & delicious everyday!'\n  btn.textContent = `Learn More`;\n  \n\n  textContainer.appendChild(h2);\n  textContainer.appendChild(h1);\n  textContainer.appendChild(p);\n  textContainer.appendChild(btn);\n\n  imgContainer.appendChild(textContainer);\n  \n  home.appendChild(imgContainer);\n  \n\n  document.getElementById('content').appendChild(home);\n}\n\n//# sourceURL=webpack://resturant-page/./src/scripts/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_home_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/home.css */ \"./src/styles/home.css\");\n/* harmony import */ var _images_lama_roscu_Wpg3Qm0zaGk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg */ \"./src/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg\");\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHome);\n\n\n\nfunction createHome(){\n  const home = document.createElement('div');\n  home.classList.add('home');\n\n  const imgContainer = document.createElement('div');\n  imgContainer.classList.add('img-container');\n\n  const backgroundImage = document.createElement('img');\n  backgroundImage.src = _images_lama_roscu_Wpg3Qm0zaGk_unsplash_jpg__WEBPACK_IMPORTED_MODULE_1__;\n\n  imgContainer.appendChild(backgroundImage);\n\n\n  const colorOverlay = document.createElement('div');\n  colorOverlay.classList.add('color-overlay');\n\n  imgContainer.appendChild(colorOverlay);\n\n\n  const h2 = document.createElement('h2');\n  const h1 = document.createElement('h1');\n  const p = document.createElement('p');\n  const btn = document.createElement('button');\n  const textContainer = document.createElement('div');\n\n  textContainer.classList.add('text-container');\n\n  h2.textContent = 'welcome to';\n  h1.textContent = `SCOOP'S`;\n  p.textContent = 'ice cream made fresh & delicious everyday!'\n  btn.textContent = `Learn More`;\n  \n\n  textContainer.appendChild(h2);\n  textContainer.appendChild(h1);\n  textContainer.appendChild(p);\n  textContainer.appendChild(btn);\n\n  imgContainer.appendChild(textContainer);\n  \n  home.appendChild(imgContainer);\n  \n\n  document.getElementById('content').appendChild(home);\n}\n\n//# sourceURL=webpack://resturant-page/./src/scripts/home.js?");
 
 /***/ }),
 
@@ -237,6 +237,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _styles_menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/menu.css */ \"./src/styles/menu.css\");\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMenu);\n\n\nfunction createMenu (){\n  \n  const menuContainer = document.createElement('div');\n  menuContainer.classList.add('menu-container');\n\n  const h1 = document.createElement('h1');\n  h1.textContent = 'EXPLORE OUR DELICIOUS FLAVOURS!'\n\n  menuContainer.appendChild(h1);\n\n  const itemsContainer = document.createElement('div');\n  itemsContainer.classList.add('items-container');\n\n  //menu item creation\n  createMenuItems(itemsContainer);\n\n  menuContainer.appendChild(itemsContainer);\n\n  document.getElementById('content').appendChild(menuContainer);\n  \n  \n}\n\n\nfunction createMenuItems(itemsContainer){\n  items.forEach( (menuItem) => {\n    const item = document.createElement('div');\n    item.classList.add('item');\n\n    const itemName = document.createElement('h3');\n    itemName.textContent = `${menuItem.name}`;\n\n    const itemDescription = document.createElement('p');\n    itemDescription.textContent = `${menuItem.description}`;\n\n    const itemButton = document.createElement('button');\n    itemButton.textContent = 'See Details >';\n\n    const itemInfo = document.createElement('div');\n    itemInfo.classList.add('item-info');\n\n    itemInfo.appendChild(itemName);\n    itemInfo.appendChild(itemDescription)\n\n    item.appendChild(itemInfo);\n    item.appendChild(itemButton);\n\n\n\n    itemsContainer.appendChild(item);\n\n  })\n}\n\n\nconst items = [\n  {\n    name: 'VANILLA',\n    description: 'smooth and creamy vanilla ice cream.'\n  },\n  {\n    name: 'CHOCOLATE',\n    description: 'classic rich chocolate ice cream.'\n  },\n  {\n    name: 'STRAWBERRY',\n    description: 'strawberry ice cream made with fresh strawberries.'\n  },\n  {\n    name: `COOKIES N'CREAM`,\n    description: 'vanilla ice cream with chunks of oreo.'\n  },\n  {\n    name: 'MANGO',\n    description: 'fresh mango ice cream.'\n  },\n  {\n    name: 'MINT',\n    description: 'mint ice cream with chunks of chocolate.'\n  },\n  {\n    name: 'COTTON CANDY',\n    description: 'pink and blue cotton candy ice cream.'\n  },\n  {\n    name: 'GREEN TEA',\n    description: 'refreshing green tea ice cream.'\n  },\n  {\n    name: 'PISTACHIO',\n    description: 'pistachio ice cream with pistachio nuts.'\n  }\n\n]\n\n//# sourceURL=webpack://resturant-page/./src/scripts/menu.js?");
+
+/***/ }),
+
+/***/ "./src/images/ice-cream.png":
+/*!**********************************!*\
+  !*** ./src/images/ice-cream.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ff37cd6f9319151a6701.png\";\n\n//# sourceURL=webpack://resturant-page/./src/images/ice-cream.png?");
+
+/***/ }),
+
+/***/ "./src/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg":
+/*!********************************************************!*\
+  !*** ./src/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg ***!
+  \********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"44bd5394f847785fc519.jpg\";\n\n//# sourceURL=webpack://resturant-page/./src/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg?");
 
 /***/ })
 
@@ -291,6 +311,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -305,6 +337,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

@@ -1,5 +1,6 @@
 export default createHeader;
 import '../styles/header.css';
+import Logo from '../images/ice-cream.png'
 
 function createHeader(){
   const headerContent = document.createElement('header');
@@ -7,7 +8,7 @@ function createHeader(){
 
   const imgDiv = document.createElement('div');
   const logo = document.createElement('img');
-  logo.src = '../../dist/images/ice-cream.png';
+  logo.src = Logo;
   imgDiv.appendChild(logo);
 
   imgDiv.classList.add('logo-container');

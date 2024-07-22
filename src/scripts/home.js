@@ -1,5 +1,6 @@
 export default createHome;
 import '../styles/home.css';
+import BackgroundIceCream from '../images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg';
 
 function createHome(){
   const home = document.createElement('div');
@@ -9,7 +10,7 @@ function createHome(){
   imgContainer.classList.add('img-container');
 
   const backgroundImage = document.createElement('img');
-  backgroundImage.src = '../../dist/images/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg';
+  backgroundImage.src = BackgroundIceCream;
 
   imgContainer.appendChild(backgroundImage);
 
